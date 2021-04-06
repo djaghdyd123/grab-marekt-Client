@@ -44,3 +44,8 @@
 #description {
   margin-top: 16px;
 }
+
+#createdAt {
+  font-size: 12px;
+  color: rgb(136, 136, 136);
+}
