@@ -49,3 +49,8 @@
   font-size: 12px;
   color: rgb(136, 136, 136);
 }
+
+#purchase-button {
+  margin-top: 16px;
+  font-size: 14px;
+}
