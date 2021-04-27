@@ -21,7 +21,9 @@ function ProductPage() {
         console.log(error);
       });
   };
+
   const [product, setProduct] = useState(null);
+
   useEffect(function () {
     getProduct();
   }, []);
