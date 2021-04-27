@@ -13,7 +13,7 @@ function MainPage() {
   const [banners, setBanners] = React.useState([]);
   React.useEffect(function () {
     axios
-      .get(`http://localhost:8080/products`)
+      .get(`${API_URL}/products`)
       .then(function (result) {
         console.log(result);
         const products = result.data.products;

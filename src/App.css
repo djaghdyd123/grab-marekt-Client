@@ -31,7 +31,8 @@ body,
   height: 36px;
 }
 #body {
-  width: 1024px;
+  max-width: 1024px;
+  width: 100%;
   margin: 0 auto;
   padding-bottom: 24px;
   min-height: 100vh;
@@ -39,4 +40,19 @@ body,
 #footer {
   height: 100px;
   background-color: rgb(230, 230, 230);
+}
+
+@media screen and (max-width: 400px) {
+  .product-card {
+    width: 100px !important;
+  }
+  #header {
+    padding: 0 8px;
+  }
+  #body {
+    padding: 0 8px;
+  }
+  .ant-carousel {
+    margin: 0 -8px;
+  }
 }

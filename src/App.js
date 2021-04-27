@@ -1,6 +1,6 @@
 import "antd/dist/antd.css";
 import "./App.css";
-import MainPageComponent from "./main/index.js";
+import MainPage from "./main/index.js";
 import { Switch, Route, useHistory } from "react-router-dom";
 import UploadPage from "./upload";
 import ProductPage from "./product";
@@ -31,7 +31,7 @@ function App() {
       <div id="body">
         <Switch>
           <Route exact={true} path={"/"}>
-            <MainPageComponent />
+            <MainPage />
           </Route>
           <Route exact={true} path={"/products/:id"}>
             <ProductPage />
